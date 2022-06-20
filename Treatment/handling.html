@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treatment Handling</title>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        background-color: white;
+        font-family: 'Caveat', cursive;
+      }
+      .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background-color: #fff;
+      }
+      .preloader .loading {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        font: 14px arial;
+        text-align: center;
+      }
+      .image{
+        margin: 0px;
+        padding: 0px;
+        width: 5%;
+        display: flex;
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+      }
+      .row{
+        padding: 20vw 0;
+	      width: 100%;
+	      height: 20px;
+	      display: flex;
+	      justify-content: center;
+	      align-items: center;
+	      margin : 0;
+	      border-top: 0px;
+	      border-bottom: 10px solid white;
+	      flex-direction: column;
+      }
+      h4{
+        margin: 4px 0;
+        font-size: 40px;
+        text-align: center;
+
+      }
+      a.in{
+        font-size: 20px;
+        font-family: 'Noto Sans', sans-serif;
+        color: purple;
+        font-weight: bolder;
+        text-decoration: none;
+
+      }
+      .nomor{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 5px;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 19px;
+      }
+      #number{
+        color: #black;
+
+      }
+      #num{
+        text-decoration: none;
+        color: purple;
+      }
+      p{
+        margin: 7px;
+        padding: 2px;
+        font-size: 20px;
+        font-family: 'Noto Sans', sans-serif;
+        color: black;
+        font-weight: bolder;
+      }
+      /* Menenangkan */
+      #k7{
+        background-color: rgb(127, 255, 1);
+      }
+      #k8{
+        background-color: rgb(43, 191, 254);
+      }
+      #k9{
+        background-color: rgba(138, 43, 226, 0.8);
+      }
+
+    </style>
+    <script>
+        $(document).ready(function(){
+          $(".preloader").fadeOut();
+        })
+    </script>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="loading">
+        <img src="loading-screen.gif">
+        <p>Harap Tunggu</p>
+      </div>
+    </div>
+    <div class="content">
+      <img class="image" src="zyro-image.png">
+      <div class="row" id="k9">
+        <h4>Belum lolos gmn nih?</h4>
+
+      </div>
+      <!-- Utuk yang belum lulus -->
+      <div class="row" id="k7">
+        <h4>Jgn nyerah dluu, hidup masih panjang</h4>
+
+      </div>
+      <div class="row" id="k8">
+        <h4>Masih ada alternatif lain utk di coba</h4>
+
+      </div>
+      <div class="row" id="k9">
+        <h4>Waktunya untuk bangkit lagi</h4>
+
+      </div>
+      <div class="row" id="k7">
+        <h4>Buktikan pada dunia klo kamu bisa</h4>
+
+      </div>
+      <div class="row" id="k8">
+        <h4>Kata Brian Dyson, mantan CEO coca-cola sih gini</h4>
+
+      </div>
+      <div class="row" id="k9">
+        <h4>“Don’t give up when you still have something to give. Nothing is really over until the moment you stop trying”</h4>
+
+      </div>
+      <div class="row" id="k7">
+        <h4>Jadi, jangan mudah buat nyerah</h4>
+
+      </div>
+      <div class="row" id="k8">
+        <h4>Tetep semangat buat berusaha!</h4>
+
+      </div>
+      <div class="row" id="k9">
+        <h4>Trus kata ibu klo udh ada usaha jgn lupa ibadah sama doa nya juga</h4>
+
+      </div>
+      <div class="row" id="k7">
+        <h4>OKK? Let's move mate.</h4>
+
+      </div>
+      <p>Ini untukku, dan yang melihat. It's very simple, but...</p>
+      <p>I hope you feel better after seeing this, see you soon mate "</p>
+      <p>Inspirasi <a class="in" href="https://znap.link/hikarisproject" target="_blank">hikarisproject_</a></p>
+      <div class="nomor" id="number">
+        Report: <a class="nomor" id="num" href="https://wa.me/6285232439337">Here I am</a>
+    </div>
+
+    </div>
+
+  </body>
+</html>
